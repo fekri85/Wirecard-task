@@ -1,0 +1,7 @@
+all:
+  hosts:
+    staging:
+      ansible_connection: ssh
+      ansible_user: jenkins
+      ansible_host: app.wirecard.com
+      ansible_port: 22
